@@ -1,6 +1,6 @@
-.body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;   
 }
 
 .header-area {
@@ -8,5 +8,10 @@
     background-color: #02024d;
     height: 60px;
     display: flex;
+}
+
+.right-header {
+    margin-left: auto;
+
 }
 
