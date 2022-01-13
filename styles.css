@@ -5,13 +5,53 @@ body {
 
 .header-area {
     color: white;
-    background-color: #02024d;
+    background-color: #05053a;
     height: 60px;
     display: flex;
 }
 
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.website-name {
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 .right-header {
     margin-left: auto;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
 
 }
 
+.like-fb, .contact-button {
+    color: rgb(146, 142, 142);
+    background-color: rgb(52, 52, 167);
+    font-size: 16px;
+    border: 0px;
+    padding: 8px;
+    border-radius: 8px;
+}
