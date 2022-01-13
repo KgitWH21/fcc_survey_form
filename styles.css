@@ -10,6 +10,10 @@ body {
     display: flex;
 }
 
+.logo {
+    display: flex;
+}
+
 .left-header {
     display: flex;
     align-items: center;
@@ -23,8 +27,9 @@ body {
 
 .website-name {
     font-size: 16px;
-    font-weight: lighter;
-    color: white;
+    font-weight: 200;
+    color: rgb(129, 126, 126);
+    margin-top: 4px;
 }
 
 a:visited {
