@@ -3,7 +3,9 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    position: relative; 
+    position: relative;
+    
+
 
 }
 
@@ -70,10 +72,11 @@ a {
     box-shadow: inset 3px 5px 4px rgb(128, 128, 158);
 }
 
-.bg-img {
+.main-content {
     min-height: 100vh;
     max-width: 100%;
-    background-size: contain;
+    background-image: url("Images/PXL_20211230_104309290.jpg");
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
