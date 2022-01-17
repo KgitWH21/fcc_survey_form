@@ -32,10 +32,51 @@
             <input name="first_name" type="text" required placeholder="John"/>
             <br>
 		    <label id="email" for="email">Email</label>
-		    <input name="email" type="email" required placeholder="you@domain.com"/>
+		    <input name="email" type="text" required placeholder="you@domain.com"/>
             <br>
-            <label id="number" for="age">Age (Optional)</label>
-		    <input name="age" type="age" required placeholder="Age"/>
+            <label id="number" for="age">Age</label>
+            <p class="field_comment_2">(Optional)</p>
+		    <input name="age" type="number" required placeholder="Age"/>
+            <br>
+            <p>Would you recommend Tower of Babbling Learn Japanese to a friend?</p>
+            <input type="radio" id="Definitely" name="tob_recommendation" value="Definitely">
+            <label for="Definitely">Definitely</label>
+            <input type="radio" id="Maybe" name="tob_recommendation" value="Maybe">
+            <label for="Maybe">Maybe</label>
+            <input type="radio" id="Not-sure" name="tob_recommendation" value="Not-sure">
+            <label for="Not-sure">Not sure</label>
+            <br>
+            <label for="tob_choices" id="dropdown">How did you hear about The Tower of Babbling Learn Japanese?</label>
+            <select name="tob_choices" id="dropdown">
+              <option value="ToB Japan Podcast">ToB Japan Podcast</option>
+              <option value="online_search">Online search</option>
+              <option value="Facebook">Facebook</option>
+              <option value="From_a_friend">From a friend</option>
+              <option value="From_Keith">From Keith</option>
+            </select>
+            <br>
+            <p>What has ToB Learn Japanese helped you with?</p>
+            <p class="field_comment">(Check all that apply)</p>
+            <input type="radio" id="start_jp" name="tob-help-with" value="start_jp">
+            <label for="start_jp">Finding a way to start learning Japanese</label>
+            <input type="radio" id="Learn_writing" name="tob-help-with" value="Learn_writing">
+            <label for="Learn_writing">Learn katakana, hiragana, and Kanji</label>
+            <input type="radio" id="grammar" name="tob-help-with" value="grammar">
+            <label for="grammar">Improve my Japanese grammar</label>
+            <input type="radio" id="pronunciation" name="tob-help-with" value="pronunciation">
+            <label for="pronunciation">My Japanese pronunciation has improved</label>
+            <input type="radio" id="study-plan" name="tob-help-with" value="study-plan">
+            <label for="study-plan">Creating a plan to learn Japanese</label>
+            <input type="radio" id="speaking" name="tob-help-with" value="speaking">
+            <label for="speaking">My speaking has improved</label>
+            <input type="radio" id="listening" name="tob-help-with" value="listening">
+            <label for="listening">My ability to understand spoken Japanese has improved</label>
+            <input type="radio" id="reading" name="tob-help-with" value="reading">
+            <label for="reading">My reading in Japanese has improved</label>
+            <input type="radio" id="writing" name="tob-help-with" value="writing">
+            <label for="writing">My writing has improved</label>
+            <input type="radio" id="confidence" name="tob-help-with" value="confidence">
+            <label for="confidence">My overall confidence with Japanese has improved</label>
             <br>
             <p>Please enter any comments or suggestions below</p>
             <textarea id="comments" name="comment" placeholder= "Enter your comment here..."></textarea>
