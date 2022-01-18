@@ -72,7 +72,7 @@ a {
     box-shadow: inset 3px 5px 4px rgb(128, 128, 158);
 }
 
-.main-content {
+.bg-img {
     min-height: 100vh;
     max-width: 100%;
     background-image: url("Images/PXL_20211230_104309290.jpg");
@@ -82,5 +82,15 @@ a {
     background-attachment: fixed;
     opacity: 0.6;
     z-index: -1;
+    
+}
 
+.survey-form {
+    color: white;
+    position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0; 
 }
