@@ -123,7 +123,7 @@ a {
     
 }
 
-.name-block {  
+.name-block, .email-block, .age-block, .h3-title {  
     margin-left: 40px;
     width: 800px;
     display: flex;
@@ -142,7 +142,27 @@ label {
     margin-right: 40px;
     font-size: 20px;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
     
+}
+
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.email-block, .age-block, .name-block, .h3-title {
+    margin-top: 30px;
+}
+
+.age-p {
+    display: flex;
+    gap: 8px;
+}
+
+.field_comment_2 {
+    font-size: 15px;
 }
 
 
