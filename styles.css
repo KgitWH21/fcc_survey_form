@@ -123,7 +123,8 @@ a {
     
 }
 
-.name-block, .email-block, .age-block, .h3-title {  
+.name-block, .email-block, .age-block, .h3-title,
+.radio-block {  
     margin-left: 40px;
     width: 800px;
     display: flex;
@@ -131,12 +132,15 @@ a {
     gap: 10px;
 }
 
-input {
+
+.name-block input, .email-block input,
+.age-block input {
     margin: 0px;
     padding: 0;
     width: 700px;
     font-size: 20px;
 }
+
 
 label {
     margin-right: 40px;
@@ -144,15 +148,17 @@ label {
     font-weight: 700;
     margin: 0;
     padding: 0;
-    
+
 }
 
-p, h3 {
+p, h3, .r-buttton {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
-.email-block, .age-block, .name-block, .h3-title {
+.email-block, .age-block, .name-block, .h3-title,
+.radio-block {
     margin-top: 30px;
 }
 
@@ -164,6 +170,8 @@ p, h3 {
 .field_comment_2 {
     font-size: 15px;
 }
+
+
 
 
 

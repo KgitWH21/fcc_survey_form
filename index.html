@@ -44,12 +44,20 @@
 		    <input name="age" type="number" required placeholder="Age"/>
         </div>
             <h3 class="h3-title">Would you recommend Tower of Babbling Learn Japanese to a friend?</h3>
-            <input type="radio" id="Definitely" name="tob_recommendation" value="Definitely">
-            <label for="Definitely">Definitely</label>
-            <input type="radio" id="Maybe" name="tob_recommendation" value="Maybe">
-            <label for="Maybe">Maybe</label>
-            <input type="radio" id="Not-sure" name="tob_recommendation" value="Not-sure">
-            <label for="Not-sure">Not sure</label>
+        <div class="radio-block">
+            <label for="Definitely" class="r-button">
+                <input type="radio" id="Definitely" name="tob_recommendation" value="Definitely">
+                Definitely
+            </label>
+            <label for="Maybe" class="r-button">
+                <input type="radio" id="Maybe" name="tob_recommendation" value="Maybe">
+                Maybe
+            </label>
+            <label for="Not-sure" class="r-button">
+                <input type="radio" id="Not-sure" name="tob_recommendation" value="Not-sure">
+                Not sure
+            </label>
+        </div>
             <br>
             <label for="tob_choices" id="dropdown">How did you hear about The Tower of Babbling Learn Japanese?</label>
             <select name="tob_choices" id="dropdown">
