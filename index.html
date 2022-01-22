@@ -8,6 +8,8 @@
     <title>Groundwork Japanese Feedback Form</title>
 </head>
 <body>
+    <div class="bg-image"></div>
+    <div class= "all-content"></div>
     <div class="header-area">
         <div class="left-header">
             <div class="logo"><img src="../fcc_survey_form/Images/Groundwork Japanese Discord Server Icon.png" alt="Course icon" width="60px" height="60px"></div>
@@ -58,7 +60,7 @@
                 Not sure
             </label>
         </div>
-            <br>
+        <div class="dropdown-block">
             <label for="tob_choices" id="dropdown">How did you hear about The Tower of Babbling Learn Japanese?</label>
             <select name="tob_choices" id="dropdown">
               <option value="ToB Japan Podcast">ToB Japan Podcast</option>
@@ -67,34 +69,55 @@
               <option value="From_a_friend">From a friend</option>
               <option value="From_Keith">From Keith</option>
             </select>
-            <br>
-            <p>What has ToB Learn Japanese helped you with?</p>
+        </div>
+        <div class="help-block">
+            <div class="help-p">
+            <h3 class="help-title">What has ToB Learn Japanese helped you with?</h3>
             <p class="field_comment">(Check all that apply)</p>
-            <input type="radio" id="start_jp" name="tob-help-with" value="start_jp">
-            <label for="start_jp">Finding a way to start learning Japanese</label>
-            <input type="radio" id="Learn_writing" name="tob-help-with" value="Learn_writing">
-            <label for="Learn_writing">Learn katakana, hiragana, and Kanji</label>
-            <input type="radio" id="grammar" name="tob-help-with" value="grammar">
-            <label for="grammar">Improve my Japanese grammar</label>
-            <input type="radio" id="pronunciation" name="tob-help-with" value="pronunciation">
-            <label for="pronunciation">My Japanese pronunciation has improved</label>
-            <input type="radio" id="study-plan" name="tob-help-with" value="study-plan">
-            <label for="study-plan">Creating a plan to learn Japanese</label>
-            <input type="radio" id="speaking" name="tob-help-with" value="speaking">
-            <label for="speaking">My speaking has improved</label>
-            <input type="radio" id="listening" name="tob-help-with" value="listening">
-            <label for="listening">My ability to understand spoken Japanese has improved</label>
-            <input type="radio" id="reading" name="tob-help-with" value="reading">
-            <label for="reading">My reading in Japanese has improved</label>
-            <input type="radio" id="writing" name="tob-help-with" value="writing">
-            <label for="writing">My writing has improved</label>
-            <input type="radio" id="confidence" name="tob-help-with" value="confidence">
-            <label for="confidence">My overall confidence with Japanese has improved</label>
-            <br>
-            <p>Please enter any comments or suggestions below</p>
+            </div>
+            <label for="start_jp"><input type="checkbox" id="start_jp" name="tob-help-with" value="start_jp">
+                Finding a way to start learning Japanese
+            </label>
+            <label for="Learn_writing"><input type="checkbox" id="Learn_writing" name="tob-help-with" value="Learn_writing">
+                Learn katakana, hiragana, and Kanji
+            </label>
+            <label for="grammar">
+                <input type="checkbox" id="grammar" name="tob-help-with" value="grammar">
+                Improve my Japanese grammar
+            </label>
+            <label for="pronunciation">
+                <input type="checkbox" id="pronunciation" name="tob-help-with" value="pronunciation">
+                My Japanese pronunciation has improved
+            </label>
+            <label for="study-plan">
+                <input type="checkbox" id="study-plan" name="tob-help-with" value="study-plan">
+                Creating a plan to learn Japanese
+            </label>
+            <label for="speaking">
+                <input type="checkbox" id="speaking" name="tob-help-with" value="speaking">
+                My speaking has improved
+            </label>
+            <label for="listening"><input type="checkbox" id="listening" name="tob-help-with" value="listening">
+                My ability to understand spoken Japanese has improved
+            </label>
+            <label for="reading">
+                <input type="checkbox" id="reading" name="tob-help-with" value="reading">
+                My reading in Japanese has improved
+            </label>
+            <label for="writing">
+                <input type="checkbox" id="writing" name="tob-help-with" value="writing">
+                My writing has improved
+            </label>
+            <label for="confidence">
+                <input type="checkbox" id="confidence" name="tob-help-with" value="confidence">
+                My overall confidence with Japanese has improved
+            </label>
+        </div>
+        <div class="comment-block">
+            <h3 class="comment-title">Please enter any comments or suggestions below</h3>
             <textarea id="comments" name="comment" placeholder= "Enter your comment here..."></textarea>
-            <br>
             <button id="submit">Submit</button> 
+        </div>
         </form>
     </div>
 </body>

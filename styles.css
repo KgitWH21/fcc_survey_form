@@ -12,13 +12,18 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
 }
+
+
+
+
+
 
 body::before {
 
     opacity: 0.6;
     z-index: -1;
+    
 }
 
 
@@ -75,7 +80,7 @@ a {
 
 }
 
-.like-fb, .contact-button {
+.like-fb, .contact-button, #submit {
     color: rgb(146, 142, 142);
     background-color: rgb(52, 52, 167);
     font-size: 16px;
@@ -124,7 +129,7 @@ a {
 }
 
 .name-block, .email-block, .age-block, .h3-title,
-.radio-block {  
+.radio-block, .dropdown-block, .help-block, .comment-block {  
     margin-left: 40px;
     width: 800px;
     display: flex;
@@ -134,11 +139,11 @@ a {
 
 
 .name-block input, .email-block input,
-.age-block input {
+.age-block input, #dropdown, #comments, #submit {
     margin: 0px;
     padding: 0;
     width: 700px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -151,25 +156,42 @@ label {
 
 }
 
-p, h3, .r-buttton {
+p, h3, .r-buttton, .help-block label {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 .email-block, .age-block, .name-block, .h3-title,
-.radio-block {
+.radio-block, .dropdown-block, .help-block {
     margin-top: 30px;
 }
 
-.age-p {
+.comment-block {
+    margin-top: 40px;
+}
+
+.age-p, .help-p {
     display: flex;
     gap: 8px;
 }
 
-.field_comment_2 {
+.field_comment_2, .field_comment {
     font-size: 15px;
 }
+
+.comment-block {
+    margin-bottom: 50px;
+}
+
+#submit {
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(95, 95, 233);
+}
+
+
 
 
 
