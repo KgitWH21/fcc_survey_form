@@ -18,11 +18,9 @@ body {
 .header-area {
     color: white;
     background-color: #05053a;
-    height: 60px;
     display: flex;
     position: sticky;
-    top: 0;
-    z-index: 3;  
+    top: 0; 
 
 }
 
